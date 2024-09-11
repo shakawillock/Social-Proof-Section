@@ -201,6 +201,12 @@ body {
 }
 
 @media (max-width: 420px) {
+  .main-content,
+  .ratings,
+  .testimonials {
+    width: 100%;
+  }
+
   .company-rating-info {
     font-size: 0.875rem;
     width: 200px;
