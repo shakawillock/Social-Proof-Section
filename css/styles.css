@@ -203,5 +203,7 @@ body {
 @media (max-width: 420px) {
   .company-rating-info {
     font-size: 0.875rem;
+    width: 200px;
+    text-align: center;
   }
 }
