@@ -157,6 +157,10 @@ body {
     width: 60%;
   }
 
+  .company-rating-info {
+    margin-left: 0;
+  }
+
   .testimonial {
     margin-right: 0;
   }
@@ -185,5 +189,19 @@ body {
   .ratings,
   .testimonials {
     width: 70%;
+  }
+
+  .testimonial-comment {
+    font-size: 1rem;
+  }
+
+  .attribution {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .company-rating-info {
+    font-size: 0.875rem;
   }
 }
